@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="./css/custom.css">
     <link rel="stylesheet" href="./fontawesome-free-5.11.2-web/css/all.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/lightbox.min.css">
+    <script type="text/javascript" src="./js/lightbox-plus-jquery.js"></script>
+    <script type="text/javascript" src="./js/lightbox-plus-jquery.min.js"></script>
 </head>
 <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
     <div class="container">
@@ -106,13 +109,144 @@
             <div class="col">
                 <div class="container pt-5">
                     <h1>Are you ready to get started?</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptas nulla minima deserunt reiciendis, quas nemo exercitationem tempore autem sint?</p>
-                    
+                    <p class="d-none d-md-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+                        voluptas nulla minima deserunt reiciendis, quas nemo exercitationem tempore autem sint?</p>
+
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+<!-- INFO SECTION -->
+
+<section id="info" class="py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 align-self-center">
+                <h3>Lorem ipsum</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam neque voluptatum dicta
+                    voluptatem tempora qui autem natus consequatur quos facere!</p>
+                <a href="#" class="btn btn-outline-danger btn-lg">Learn More</a>
+            </div>
+            <div class="col-md-6">
+                <img src="./img/hd_1c3ff62d21bccf01f69036a9798db73d.jpg" class="img-fluid" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- VIDEO PLAY SECTION -->
+<section id="video-play">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="container p-5">
+                    <a href="#" class="video" data-video="https://www.youtube.com/embed/" data-toggle="modal"
+                        data-target="#videoModal">
+                        <i class="fa fa-play"></i>
+                    </a>
+                    <h1>See What We Do</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PHOTO GALLERY -->
+<section id="gallery" class="py-5">
+    <div class="container">
+        <h1 class="text-center">Photo Gallery</h1>
+        <p class="text-center">Check Our Photos</p>
+        <div class="row mb-5">
+            <div class="col-md-4">
+                <a href="./img/flow.jpg" data-toggle="lightbox"
+                    data-lightbox="mygallery" data-title=""><img src="./img/flow.jpg"
+                        class="img-fluid" alt=""></a>
+            </div>
+            <div class="col-md-4">
+                <a href="./img/hd_1c3ff62d21bccf01f69036a9798db73d.jpg" data-toggle="lightbox"
+                    data-lightbox="mygallery" data-title=""><img src="./img/hd_1c3ff62d21bccf01f69036a9798db73d.jpg"
+                        class="img-fluid" alt=""></a>
+
+            </div>
+            <div class="col-md-4">
+                <a href="./img/hd_3c458c6c82a820efdf81c0ee9309776c.jpg" data-toggle="lightbox"
+                    data-lightbox="mygallery" data-title=""><img src="./img/hd_3c458c6c82a820efdf81c0ee9309776c.jpg"
+                        class="img-fluid" alt=""></a>
+            </div>
+        </div>
+
+        <div class="row mb-5">
+            <div class="col-md-4">
+                <a href="./img/hd_3e4ae715f5e8b8de1117ee9ee2a831b8.jpg" data-toggle="lightbox"
+                   data-lightbox="mygallery" data-title=""><img src="./img/hd_3e4ae715f5e8b8de1117ee9ee2a831b8.jpg"
+                        class="img-fluid" alt=""></a>
+            </div>
+            <div class="col-md-4">
+                <a href="./img/hd_c6297731816bafbe20332f5c9f4e1a6d.jpg" data-toggle="lightbox"
+                    data-lightbox="mygallery" data-title=""><img src="./img/hd_c6297731816bafbe20332f5c9f4e1a6d.jpg"
+                        class="img-fluid" alt=""></a>
+
+            </div>
+            <div class="col-md-4">
+                <a href="./img/hd_f52efba66e39e2f1481605fef9651f41.jpg" data-toggle="lightbox"
+                    data-lightbox="mygallery" data-title=""><img src="./img/hd_f52efba66e39e2f1481605fef9651f41.jpg"
+                        class="img-fluid" alt=""></a>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- NEWSLETTER SECTION -->
+
+<section id="newsletter" class="text-center p-5 bg-dark text-white">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>Sign Up For Our Newsletter</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam cumque voluptatibus rem autem dolorum corrupti dolore a mollitia optio quam!</p>
+                <form action="" class="form-inline justify-content-center">
+                    <label class="sr-only" for="name">Name</label>
+                    <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" placeholder="Enter Name">
+
+                    <label class="sr-only" for="email">Email</label>
+                    <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" placeholder="Enter Email">
+                    <button class="btn btn-primary" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER SECTION -->
+<section id="main-footer" class="text-center p-4">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p>
+                    copyright 2020 &copy; Glozzom
+                </p>
+            </div> 
+        </div>
+    </div>
+</section>
+
+
+<!-- VIDEO MODAL -->
+<div class="modal fade" id="videoModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button class="close" data-dismiss="modal"><span>&times;</span></button>
+                <iframe src="" height="350" width="100%" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 
 
@@ -120,6 +254,7 @@
 <script type="text/javascript" src="./js/jquery_3.3.1.js"></script>
 <script type="text/javascript" src="./js/popper.min.js"></script>
 <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./js/main.js"></script>
 
 </body>
 

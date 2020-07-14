@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 .nav-link{
     text-transform: uppercase;
     font-size: 14px;
@@ -35,7 +39,7 @@
 #home-heading{
     position: relative;
     min-height: 200px;
-    background: url('../img/hd_1c3ff62d21bccf01f69036a9798db73d.jpg');
+    background: url('../img/flow.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     color: #fff;
@@ -48,5 +52,57 @@
     top: 0;
     left: 0;
     width: 100%;
-    
+    height: 100%;
+}
+
+#info img{
+    height: 300px;
+    width: 250px;
+    padding-top: 40px;
+    /* float: right; */
+}
+
+#video-play{
+    position: relative;
+    min-height: 200px;
+    background: url('../img/hd_3e4ae715f5e8b8de1117ee9ee2a831b8.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 0 -300px;
+    text-align: center;
+    color: #fff;
+}
+
+#video-play a{
+    color: #fff;
+    position: relative;bottom: -25px;
+}
+
+#video-play h1{
+    /* color: #fff; */
+    position: relative;bottom: -25px;
+} 
+
+#gallery img{
+    width: 300px;
+    height: 200px;
+}
+
+#main-footer{
+    background: #000;
+    color: #fff;
+}
+
+#page-header{
+    height: 200px;
+    background: url(../img/flow.jpg);
+    background-position: 0 -360px;
+    background-attachment: fixed;
+    color: #fff;
+    border-bottom: 1px #eee solid;
+    padding-top:  50px;
+}
+
+#about img{
+    margin-top: -70px;
 }
